@@ -4,9 +4,9 @@ var link1 = document.getElementById('link1');
 var link2 = document.getElementById('link2');
 var link3 = document.getElementById('link3');
 
-var page1 = '<div class="mainPage1"><span class="text">content one</span></div>';
-var page2 = '<div class="mainPage2"><span class="text">content two</span></div>';
-var page3 = '<div class="mainPage3"><span class="text">content three</span></div>';
+var page1 = '<div class="mainPage mainPage1"><h2 class="title">Content one</h2></div>';
+var page2 = '<div class="mainPage mainPage2"><h2 class="title">Content two</h2></div>';
+var page3 = '<div class="mainPage mainPage3"><h2 class="title">Content three</h2></div>';
 
 
 link1.addEventListener('click', function(){

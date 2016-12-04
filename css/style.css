@@ -1,5 +1,5 @@
 h2 { margin: 0 0 30px 0; }
-
+.text { font-size: 16px; line-height: 1.25em; }
 .wrapper {width: 80%; margin: 0 auto; }
 	.header { float: left; width: 100%; }
 		.headerList { float: left; padding: 0; }
@@ -10,8 +10,8 @@ h2 { margin: 0 0 30px 0; }
 				.headerLinkText {  }
 	.aside { float: right; display: block;width: 30%; }
 	.main { float: left; width: 65%; height: 300px; margin-right: 5%; }
-		.mainPage1 { height: 100%; background: #f7e7ff; }
-		.mainPage2 { height: 100%; background: #ebffe7; }
-		.mainPage3 { height: 100%; background: #ffe7e7; }
-			.text { font-size: 16px; line-height: 1.25em; }
-			.main .text { display: block; width: 100%; font-size: 18px; text-align: center; font-weight: bold; }
+		.mainPage { height: 100%; padding: 20px 10px 10px 0; box-sizing: border-box; }
+		.mainPage1 { background: #f7e7ff; }
+		.mainPage2 { background: #ebffe7; }
+		.mainPage3 { background: #ffe7e7; }
+			.main .title { display: block; width: 100%; font-size: 18px; text-align: center; font-weight: bold; }
