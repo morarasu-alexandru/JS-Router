@@ -28,8 +28,8 @@
 
 	function getElements(totalElements, idStub) {
 		let arr = [];
-		for  (let i = 0; i < totalElements; i++ ) {
-			arr.push(document.getElementById(`${idStub}${i + 1}`));
+		for  (let i = 1; i < totalElements; i++ ) {
+			arr.push(document.getElementById(`${idStub}${i}`));
 		}
 		return arr;
 	}
