@@ -14,8 +14,9 @@
 			console.log (response);
 			return response
 		});
-		return response;
 	}
+
+
 
 
 })();
