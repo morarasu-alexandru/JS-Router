@@ -28,7 +28,9 @@
 			nav.children[i].classList.remove('active');
 		}
 		e.target.classList.add('active');
-		console.log(page1);
+		while(main.firstChild) {
+			main.removeChild(main.firstChild);
+		}
 		main.insertAdjacentHTML('afterbegin', page1);
 	}
 
