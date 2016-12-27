@@ -31,7 +31,22 @@
 		while(main.firstChild) {
 			main.removeChild(main.firstChild);
 		}
-		main.insertAdjacentHTML('afterbegin', page1);
+
+		console.log(e.target.dataset.index);
+		if (e.target.dataset.index = 'first') {
+			console.log('ceva');
+		}
+
+		// if (e.target.id = link1) {
+		// 	main.insertAdjacentHTML('afterbegin', page1);
+		// 	if (e.target.id = link2) {
+		// 		main.insertAdjacentHTML('afterbegin', page2);
+		// 		if(e.target.id = link3) {
+		// 			main.insertAdjacentHTML('afterbegin', page3);
+		// 		}
+		// 	}
+		// }
+
 	}
 
 
